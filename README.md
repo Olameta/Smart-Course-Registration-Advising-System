@@ -26,4 +26,18 @@ A digital management platform designed to automate university course enrollment 
 1. Clone the repository:
    ```bash
    git clone [https://github.com/yourusername/smart-course-system.git](https://github.com/yourusername/smart-course-system.git)
+2. Install dependencies:
+
+Bash
+pip install gradio
+
+3. Run the application:
+
+Bash
+python course_registration_and_advisor_system.py
+
+🖥 Usage Example
+Advisor: Log in to add a course (e.g., CSC101). Then add CSC201 with CSC101 listed as the prerequisite. 
+
+Student: Register for CSC201. The system will block the request until you have registered and been approved for CSC101.
    cd smart-course-system
