@@ -37,34 +37,10 @@ Advisor: Log in to add a course (e.g., CSC101). Then add CSC201 with CSC101 list
 
 Student: Register for CSC201. The system will block the request until you have registered and been approved for CSC101.
    cd smart-course-system
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+### 📄 License
+This project is licensed under the MIT License
 
-
----
-
-### .gitignore
-```ignore
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Database
-course_system.db
-
-# OS-specific files
-.DS_Store
-Thumbs.db
-
-# Virtual environments
-venv/
-env/
-.env
-
-# Colab / Jupyter notebooks
-.ipynb_checkpoints/
-Project Structure
+### Project Structure
 Plaintext
 .
 ├── course_registration_and_advisor_system.py  # Main application logic and Gradio UI [cite: 36]
